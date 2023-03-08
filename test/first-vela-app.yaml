@@ -17,3 +17,6 @@ spec:
             domain: testsvc.example.com
             http:
               "/": 8000
+        - type: scaler
+          properties:
+            replicas: 2
