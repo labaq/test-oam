@@ -4,6 +4,7 @@ metadata:
   name: first-vela-app
   annotations:
     argocd.argoproj.io/compare-options: IgnoreExtraneous
+    argocd.argoproj.io/sync-options: Prune=false
 spec:
   components:
     - name: express-server
